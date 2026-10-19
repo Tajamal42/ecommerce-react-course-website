@@ -1,7 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Routes, Route, Link } from 'react-router-dom'
+import Home from './Home'
+import Auth from './Auth'
 
 const Navbar = () => {
+    
   return (
     <nav className="navbar">
         <div className='navbar-container'>
@@ -17,7 +20,9 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
+        
     </nav>
+    
   )
 }
 
